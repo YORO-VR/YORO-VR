@@ -1,5 +1,13 @@
 # You Only Render Once (YORO)
+
+**You Only Render Once: Enhancing Energy and Computation Efficiency of Mobile Virtual Reality**
+
+Xingyu Chen, Xinmin Fang, Shuting Zhang, Xinyu Zhang, Liang He, Zhengxiong Li
+
+*Proceedings of the 23rd Annual International Conference on Mobile Systems, Applications and Services (MobiSys 2025)*
+
 ## Description
+
 This is YORO's open source data and code.
 
 This directory contains:
@@ -7,14 +15,17 @@ This directory contains:
 - data: Contains the raw data of evaluation and figures on the paper.
 
 ## System Requirements
+
 - Windows 10 or Windows 11
 - Unity 2021.3.12
 
-# Installation Guide
+## Installation Guide
+
 - Execute the `setup.cmd`
 - Extract the zip file in `./code/Compiled` folder
 
-# Build for Oculus Quest
+## Build for Oculus Quest
+
 - Open the `UnityProject` using Unity 2021.3.12
 - Open `Edit -> Project Settings`
 - Click `XR Plug-in Management`
@@ -29,8 +40,20 @@ This directory contains:
 - Click `Build` and select a folder.
 - Upon building finished, the built `.apk` file should be in the selected folder.
 
+## Citation
+
+If you find this work useful, please cite our paper:
+
+```bibtex
+@inproceedings{chen2025you,
+  title     = {You Only Render Once: Enhancing Energy and Computation Efficiency of Mobile Virtual Reality},
+  author    = {Chen, Xingyu and Fang, Xinmin and Zhang, Shuting and Zhang, Xinyu and He, Liang and Li, Zhengxiong},
+  booktitle = {Proceedings of the 23rd Annual International Conference on Mobile Systems, Applications and Services},
+  pages     = {263--276},
+  year      = {2025}
+}
+```
+
 ## Copyright
-This is the internal open source version of YORO, 
-please do not share it with others, 
-the source code will be made public on GitHub when the paper is conditionally accepted.
-All rights reserved by YORO's authors.
+
+Copyright © 2025 Xingyu Chen, Xinmin Fang, Shuting Zhang, Xinyu Zhang, Liang He, Zhengxiong Li. All rights reserved.
