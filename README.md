@@ -1,4 +1,4 @@
-# YORO
+# You Only Render Once (YORO)
 ## Description
 This is YORO's open source data and code.
 
